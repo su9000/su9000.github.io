@@ -46,7 +46,7 @@ https://orcid.org/0000-0002-0144-8545
 
 - Institute: IAFE (UBA–CONICET), Buenos Aires  
 - GitHub: https://github.com/su9000  
-- Email: *your email here*
+- Email: susana.pedrosa@gmail.com
 
 ---
 
