@@ -164,10 +164,10 @@ Astrophysicist · Galaxy Formation & Evolution · Numerical Simulations & HPC
 I am an astrophysicist based at IAFE (UBA–CONICET) in Buenos Aires, Argentina.  
 My research focuses on galaxy formation and evolution across cosmic time, with particular interest in:
 
-- Angular momentum and galaxy structure  
-- Low-surface-brightness galaxies (LSBGs)  
-- Feedback from compact-object stellar systems (e.g. X-ray binaries)  
-- The physics of the Cosmic Dawn and Reionization  
+- Angular momentum and galaxy structure
+- The physics of the Cosmic Dawn and Reionization
+- Cosmic Web and galaxy properties, Planes of Satellites 
+- Low-surface-brightness galaxies (LSBGs)    
 
 I work mainly with cosmological hydrodynamical simulations and numerical analysis.
 
@@ -178,9 +178,9 @@ I work mainly with cosmological hydrodynamical simulations and numerical analysi
 My current and recent topics include:
 
 - **Galaxy formation and evolution** in cosmological hydrodynamical simulations  
-- **Chemo-dynamical analysis** of galaxies in the CIELO simulations  
 - **Feedback at Cosmic Dawn** (HMXBs and their impact on the ISM/IGM)  
-- **Bulge/disk decomposition** and inner galaxy components  
+- **Bulge/disk decomposition** and inner galaxy components
+- **Chemo-dynamical analysis** of galaxies in the CIELO simulations  
 - **Low-surface-brightness galaxies (LSBGs)** and angular-momentum–dark-matter coupling  
 
 ---
@@ -217,7 +217,8 @@ I am actively interested in:
 ## Contact
 
 - Institute: IAFE (UBA–CONICET), Buenos Aires  
-- GitHub: https://github.com/su9000  
+- GitHub: https://github.com/su9000
+- LinkedIn: 
 - Email: susana.pedrosa@gmail.com
 
 ---
