@@ -1,13 +1,27 @@
+---
+layout: home
+title: "Home"
+---
+
 # Susana Pedrosa
 
-Astrophysicist | Galaxy Formation & Evolution | Numerical Simulations | HPC
+Astrophysicist · Galaxy Formation & Evolution · Numerical Simulations & HPC  
+
+---
+
+- [About](#about-me)
+- [Research](#research)
+- [Publications](#publications)
+- [Software & Tools](#software--tools)
+- [Aerospace & Industry](#aerospace--industry)
+- [Contact](#contact)
 
 ---
 
 ## About Me
 
 I am an astrophysicist based at IAFE (UBA–CONICET) in Buenos Aires, Argentina.  
-My research focuses on galaxy formation and evolution, with particular interest in:
+My research focuses on galaxy formation and evolution across cosmic time, with particular interest in:
 
 - Angular momentum and galaxy structure  
 - Low-surface-brightness galaxies (LSBGs)  
@@ -18,27 +32,44 @@ I work mainly with cosmological hydrodynamical simulations and numerical analysi
 
 ---
 
-## Research Highlights
+## Research
 
-- Galaxy formation across cosmic time  
-- Chemo-dynamical analysis of galaxies (CIELO simulations)  
-- Feedback at Cosmic Dawn  
-- Bulge/disk decomposition and inner galaxy components  
+My current and recent topics include:
 
----
-
-## Tools & Software
-
-- Python, Jupyter, NumPy, pandas, Matplotlib  
-- Cosmological simulations: EAGLE, TNG, FirstLight, CIELO, SWIFT  
-- High-performance computing (HPC)
+- **Galaxy formation and evolution** in cosmological hydrodynamical simulations  
+- **Chemo-dynamical analysis** of galaxies in the CIELO simulations  
+- **Feedback at Cosmic Dawn** (HMXBs and their impact on the ISM/IGM)  
+- **Bulge/disk decomposition** and inner galaxy components  
+- **Low-surface-brightness galaxies (LSBGs)** and angular-momentum–dark-matter coupling  
 
 ---
 
 ## Publications
 
-For a complete and updated list of publications visit:  
-https://orcid.org/0000-0002-0144-8545
+A curated selection will appear here soon.  
+
+For a complete and updated list, visit:  
+👉 https://orcid.org/0000-0002-0144-8545
+
+---
+
+## Software & Tools
+
+I regularly work with:
+
+- Python, Jupyter, NumPy, pandas, Matplotlib  
+- Cosmological simulations: EAGLE, TNG, FirstLight, CIELO, SWIFT  
+- High-performance computing (HPC)  
+
+---
+
+## Aerospace & Industry
+
+I am actively interested in:
+
+- Applying numerical modeling and HPC to data-intensive scientific and technological environments  
+- Exploring collaborations with **space** and **aerospace** companies  
+- Translating expertise in **simulations and complex systems** to industry-impact projects  
 
 ---
 
@@ -49,5 +80,7 @@ https://orcid.org/0000-0002-0144-8545
 - Email: susana.pedrosa@gmail.com
 
 ---
+
+*This site is built with GitHub Pages (theme: minima).*
 
 *This site is built with GitHub Pages.*
