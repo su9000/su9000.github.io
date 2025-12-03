@@ -3,7 +3,61 @@ layout: home
 title: "Home"
 ---
 
-<link rel="stylesheet" href="/assets/css/style.css">
+<style>
+/* Fondo general y tipografía */
+body {
+  background: #0b1020;            /* azul oscuro tipo cielo profundo */
+  color: #e6e9ff;                 /* texto clarito */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Helvetica, Arial, sans-serif;
+}
+
+/* Links */
+a {
+  color: #7dd3fc;
+}
+a:hover {
+  color: #38bdf8;
+}
+
+/* Header superior ("Susana Pedrosa" y menú) */
+.site-header {
+  background: transparent;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.site-title, .site-title a {
+  color: #e6e9ff;
+}
+
+/* Contenido central */
+.page-content {
+  background: rgba(7, 11, 25, 0.88);  /* panel algo más claro sobre el fondo */
+  padding: 2rem 1.5rem 3rem;
+  border-radius: 16px;
+  max-width: 900px;
+  margin: 2rem auto 3rem;
+  box-shadow: 0 18px 45px rgba(0,0,0,0.6);
+}
+
+/* Títulos */
+h1, h2, h3 {
+  color: #f4f5ff;
+}
+
+/* Logo centrado */
+img[src*="logo"] {
+  display: block;
+  margin: 2rem auto 2.5rem;
+  width: 180px;
+}
+
+/* Footer */
+.site-footer {
+  background: transparent;
+  border-top: 1px solid rgba(255,255,255,0.06);
+  color: #9ca3c7;
+}
+</style>
 
 <p align="center">
   <img src="/logo.png" width="200" style="border-radius: 50%;">
