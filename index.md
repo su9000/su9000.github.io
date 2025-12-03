@@ -2,6 +2,9 @@
 layout: home
 title: "Home"
 ---
+
+<style>@import url("/assets/css/style.css");</style>
+
 <p align="center">
   <img src="/logo.png" width="200" style="border-radius: 50%;">
 </p>
