@@ -89,12 +89,17 @@ hr {
 }
 
 
-/* --- FOOTER --- */
+/* Footer astral */
 .site-footer {
+  text-align: center;
+  padding: 1.4rem 0 1.8rem;
   background: transparent;
   border-top: 1px solid rgba(255,255,255,0.08);
   color: var(--text-soft);
+  font-size: 0.9rem;
+  opacity: 0.9;
 }
+
 
 /* Mejora de espaciados superiores */
 .page-content h1:first-of-type {
