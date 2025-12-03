@@ -4,63 +4,87 @@ title: "Home"
 ---
 
 <style>
-/* Fondo general y tipografía */
+
+/* --- PALETA GENERAL --- */
+:root {
+  --bg-deep: #131a2a;         /* Fondo cósmico profundo */
+  --bg-panel: rgba(33,41,65,0.85); /* Panel astral suave */
+  --text-main: #e7e7ff;       /* Texto marfil frío */
+  --text-soft: #cfd3ff;       /* Texto secundario */
+  --link: #9fc1ff;
+  --link-hover: #c5a3ff;      /* Acento mandala violeta */
+  --accent: #c5a3ff;          /* Acentos mandala */
+  --shadow-orbit: rgba(197,163,255,0.25);
+}
+
+/* --- FONDO GENERAL Y TIPOGRAFÍA --- */
 body {
-  background: #12192b;            /* azul profundo pero suave */
-  color: #e8ecff;
+  background: var(--bg-deep);
+  color: var(--text-main);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
                Helvetica, Arial, sans-serif;
 }
 
-/* Links */
+/* --- LINKS --- */
 a {
-  color: #8cc7ff;
+  color: var(--link);
+  text-decoration: none;
 }
 a:hover {
-  color: #b6ddff;
+  color: var(--link-hover);
 }
 
-/* HEADER */
+/* --- HEADER SUPERIOR --- */
 .site-header {
-  background: rgba(18, 25, 43, 0.7);
+  background: rgba(19, 26, 42, 0.75);
   border-bottom: 1px solid rgba(255,255,255,0.08);
 }
 .site-title, .site-title a {
-  color: #eef2ff !important;
+  color: var(--text-main) !important;
+  letter-spacing: 0.5px;
 }
 
-/* CONTENEDOR PRINCIPAL */
+/* --- PANEL PRINCIPAL --- */
 .page-content {
-  background: rgba(25, 32, 55, 0.75);  /* más claro y legible */
-  padding: 2.5rem 2rem 3rem;
-  border-radius: 18px;
+  background: var(--bg-panel);
+  padding: 2.8rem 2.2rem 3.2rem;
+  border-radius: 22px;
   max-width: 950px;
-  margin: 2rem auto 3rem;
-  box-shadow: 0 12px 35px rgba(0,0,0,0.45);
+  margin: 2.5rem auto 3rem;
+  box-shadow: 0 18px 45px var(--shadow-orbit);
+  border: 1px solid rgba(255,255,255,0.06);
 }
 
-/* TÍTULOS */
+/* --- TÍTULOS --- */
 h1, h2, h3 {
-  color: #f4f6ff;
+  color: var(--text-main);
+  text-shadow: 0 0 6px rgba(197,163,255,0.25);
 }
 
-/* LOGO: más visible y con halo sutil */
+/* --- LOGO: efecto halo astral --- */
 img[src*="logo"] {
   display: block;
-  margin: 2rem auto;
-  width: 200px;
-  filter: drop-shadow(0 0 8px rgba(255,255,255,0.45));
-  opacity: 0.92;
+  margin: 2rem auto 2.5rem;
+  width: 220px;
+  filter: drop-shadow(0 0 12px rgba(197,163,255,0.38));
+  opacity: 0.96;
 }
 
-/* Footer */
+/* --- SEPARADORES ESTÉTICOS --- */
+hr {
+  border: none;
+  border-top: 1px solid rgba(197,163,255,0.20);
+  margin: 1.8rem 0;
+}
+
+/* --- FOOTER --- */
 .site-footer {
   background: transparent;
   border-top: 1px solid rgba(255,255,255,0.06);
-  color: #a5adc9;
+  color: var(--text-soft);
 }
-</style>
 
+</style>
 <p align="center">
   <img src="/logo.png" width="200" style="border-radius: 50%;">
 </p>
