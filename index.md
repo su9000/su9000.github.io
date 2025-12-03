@@ -7,14 +7,14 @@ title: "Home"
 
 /* --- PALETA GENERAL --- */
 :root {
-  --bg-deep: #131a2a;         /* Fondo cósmico profundo */
-  --bg-panel: rgba(33,41,65,0.85); /* Panel astral suave */
-  --text-main: #e7e7ff;       /* Texto marfil frío */
-  --text-soft: #cfd3ff;       /* Texto secundario */
-  --link: #9fc1ff;
-  --link-hover: #c5a3ff;      /* Acento mandala violeta */
-  --accent: #c5a3ff;          /* Acentos mandala */
-  --shadow-orbit: rgba(197,163,255,0.25);
+  --bg-deep: #111827;               /* más elegante y un poquito más claro */
+  --bg-panel: rgba(45, 53, 78, 0.82); 
+  --text-main: #eaeaff;
+  --text-soft: #cfd3ff;
+  --link: #a9cafe;
+  --link-hover: #d2b7ff;
+  --accent: #c5a3ff;
+  --shadow-orbit: rgba(197,163,255,0.28);
 }
 
 /* --- FONDO GENERAL Y TIPOGRAFÍA --- */
@@ -34,55 +34,59 @@ a:hover {
   color: var(--link-hover);
 }
 
-/* --- HEADER SUPERIOR --- */
+/* --- HEADER --- */
 .site-header {
-  background: rgba(19, 26, 42, 0.75);
-  border-bottom: 1px solid rgba(255,255,255,0.08);
+  background: rgba(17, 24, 39, 0.65);
+  border-bottom: 1px solid rgba(197,163,255,0.15);
+  backdrop-filter: blur(6px);
 }
 .site-title, .site-title a {
   color: var(--text-main) !important;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.6px;
 }
 
 /* --- PANEL PRINCIPAL --- */
 .page-content {
   background: var(--bg-panel);
-  padding: 2.8rem 2.2rem 3.2rem;
-  border-radius: 22px;
-  max-width: 950px;
-  margin: 2.5rem auto 3rem;
-  box-shadow: 0 18px 45px var(--shadow-orbit);
-  border: 1px solid rgba(255,255,255,0.06);
+  padding: 3rem 2.4rem;
+  border-radius: 26px;
+  max-width: 980px;
+  margin: 3rem auto;
+  box-shadow: 0 18px 50px var(--shadow-orbit);
+  border: 1px solid rgba(255,255,255,0.05);
 }
 
-/* --- TÍTULOS --- */
+/* --- TÍTULOS --- */  
 h1, h2, h3 {
   color: var(--text-main);
-  text-shadow: 0 0 6px rgba(197,163,255,0.25);
+  text-shadow: 0 0 10px rgba(197,163,255,0.30);
 }
 
-/* --- LOGO: efecto halo astral --- */
+/* --- LOGO: halo etéreo --- */
 img[src*="logo"] {
   display: block;
-  margin: 2rem auto 2.5rem;
-  width: 220px;
-  filter: drop-shadow(0 0 12px rgba(197,163,255,0.38));
-  opacity: 0.96;
+  margin: 2.6rem auto 3rem;
+  width: 230px;
+  filter:
+    drop-shadow(0 0 14px rgba(197,163,255,0.45))
+    brightness(1.1);
+  opacity: 0.98;
 }
 
-/* --- SEPARADORES ESTÉTICOS --- */
+/* --- SEPARADORES --- */
 hr {
   border: none;
-  border-top: 1px solid rgba(197,163,255,0.20);
-  margin: 1.8rem 0;
+  border-top: 1px solid rgba(197,163,255,0.25);
+  margin: 2rem 0;
 }
 
 /* --- FOOTER --- */
 .site-footer {
   background: transparent;
-  border-top: 1px solid rgba(255,255,255,0.06);
+  border-top: 1px solid rgba(255,255,255,0.08);
   color: var(--text-soft);
 }
+</style>
 
 </style>
 <p align="center">
