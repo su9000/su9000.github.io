@@ -36,10 +36,12 @@ a:hover {
 
 /* --- HEADER --- */
 .site-header {
-  background: rgba(17, 24, 39, 0.65);
-  border-bottom: 1px solid rgba(197,163,255,0.15);
-  backdrop-filter: blur(6px);
+  background: rgba(17, 24, 39, 0.55);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(197,163,255,0.12);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
 }
+
 .site-title, .site-title a {
   color: var(--text-main) !important;
   letter-spacing: 0.6px;
