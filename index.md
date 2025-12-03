@@ -86,6 +86,19 @@ hr {
   border-top: 1px solid rgba(255,255,255,0.08);
   color: var(--text-soft);
 }
+
+/* Mejora de espaciados superiores */
+.page-content h1:first-of-type {
+  margin-top: 1.2rem;
+  text-align: center;
+}
+
+/* Más aire alrededor del logo */
+img[src*="logo"] {
+  margin-top: 1.8rem;
+  margin-bottom: 2.2rem;
+}
+  
 </style>
 
 
