@@ -100,6 +100,30 @@ img[src*="logo"] {
   margin-top: 1.8rem;
   margin-bottom: 2.2rem;
 }
+
+/* Títulos de sección con acento mandálico */
+h2 {
+  position: relative;
+  padding-bottom: 0.4rem;
+  margin-top: 2.2rem;
+  margin-bottom: 1.2rem;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--accent),
+    transparent
+  );
+  margin: 0.4rem auto 0;
+  opacity: 0.6;
+}
+
   
 </style>
 
