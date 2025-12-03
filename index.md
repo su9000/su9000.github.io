@@ -6,56 +6,58 @@ title: "Home"
 <style>
 /* Fondo general y tipografía */
 body {
-  background: #0b1020;            /* azul oscuro tipo cielo profundo */
-  color: #e6e9ff;                 /* texto clarito */
+  background: #12192b;            /* azul profundo pero suave */
+  color: #e8ecff;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
                Helvetica, Arial, sans-serif;
 }
 
 /* Links */
 a {
-  color: #7dd3fc;
+  color: #8cc7ff;
 }
 a:hover {
-  color: #38bdf8;
+  color: #b6ddff;
 }
 
-/* Header superior ("Susana Pedrosa" y menú) */
+/* HEADER */
 .site-header {
-  background: transparent;
-  border-bottom: 1px solid rgba(255,255,255,0.06);
+  background: rgba(18, 25, 43, 0.7);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
 }
 .site-title, .site-title a {
-  color: #e6e9ff;
+  color: #eef2ff !important;
 }
 
-/* Contenido central */
+/* CONTENEDOR PRINCIPAL */
 .page-content {
-  background: rgba(7, 11, 25, 0.88);  /* panel algo más claro sobre el fondo */
-  padding: 2rem 1.5rem 3rem;
-  border-radius: 16px;
-  max-width: 900px;
+  background: rgba(25, 32, 55, 0.75);  /* más claro y legible */
+  padding: 2.5rem 2rem 3rem;
+  border-radius: 18px;
+  max-width: 950px;
   margin: 2rem auto 3rem;
-  box-shadow: 0 18px 45px rgba(0,0,0,0.6);
+  box-shadow: 0 12px 35px rgba(0,0,0,0.45);
 }
 
-/* Títulos */
+/* TÍTULOS */
 h1, h2, h3 {
-  color: #f4f5ff;
+  color: #f4f6ff;
 }
 
-/* Logo centrado */
+/* LOGO: más visible y con halo sutil */
 img[src*="logo"] {
   display: block;
-  margin: 2rem auto 2.5rem;
-  width: 180px;
+  margin: 2rem auto;
+  width: 200px;
+  filter: drop-shadow(0 0 8px rgba(255,255,255,0.45));
+  opacity: 0.92;
 }
 
 /* Footer */
 .site-footer {
   background: transparent;
   border-top: 1px solid rgba(255,255,255,0.06);
-  color: #9ca3c7;
+  color: #a5adc9;
 }
 </style>
 
