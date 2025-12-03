@@ -3,7 +3,13 @@ layout: home
 title: "Home"
 ---
 
-<link rel="stylesheet" href="/assets/css/style.css">
+<style>
+body {
+    background: #101322 !important;
+    color: #eeeeee !important;
+}
+</style>
+
 
 <p align="center">
   <img src="/logo.png" width="200" style="border-radius: 50%;">
