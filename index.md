@@ -75,12 +75,19 @@ img[src*="logo"] {
   opacity: 0.98;
 }
 
-/* --- SEPARADORES --- */
+/* Separadores tipo nebulosa */
 hr {
   border: none;
-  border-top: 1px solid rgba(197,163,255,0.25);
-  margin: 2rem 0;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(197,163,255,0.35),
+    transparent
+  );
+  margin: 2.1rem 0;
 }
+
 
 /* --- FOOTER --- */
 .site-footer {
