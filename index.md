@@ -204,13 +204,9 @@ I regularly work with:
 
 ---
 
-## Aerospace & Industry
+## Exploring Industry & Aerospace Opportunities
 
-I am actively interested in:
-
-- Applying numerical modeling and HPC to data-intensive scientific and technological environments  
-- Exploring collaborations with **space** and **aerospace** companies  
-- Translating expertise in **simulations and complex systems** to industry-impact projects  
+I am actively working to bring my expertise in simulations, numerical modeling, and HPC into industry-oriented environments, particularly in aerospace. I have experience leading student teams and collaborative research efforts, coordinating technical workflows and ensuring results under demanding conditions. I am interested in opportunities where complex-system modeling, performance optimization, and scientific computing can contribute directly to technology development and mission-driven projects.
 
 ---
 
