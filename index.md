@@ -214,7 +214,7 @@ I am actively working to bring my expertise in simulations, numerical modeling, 
 
 - Institute: IAFE (UBA–CONICET), Buenos Aires  
 - GitHub: https://github.com/su9000
-- LinkedIn: 
+- LinkedIn: https://www.linkedin.com/in/susana-pedrosa-2a876118/
 - Email: susana.pedrosa@gmail.com
 
 ---
