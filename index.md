@@ -139,24 +139,23 @@ h2::after {
   
 </style>
 
-<!-- Línea superior: logo izquierda + tu foto derecha -->
-<div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+<!-- Logo a la izquierda y foto a la derecha -->
+<div style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin-bottom: 0.5rem;">
 
-  <!-- Logo -->
   <img src="logo.png"
-       style="width: 85px; height: auto; border-radius: 8px;">
+       style="width: 90px; height: auto; border-radius: 8px;">
 
-  <!-- Foto tuya -->
   <img src="mecagoengemini.jpg"
        style="width: 110px; height: auto; border-radius: 10px;">
+
 </div>
 
 # Susana Pedrosa
 
 Astrophysicist · Galaxy Formation & Evolution · Numerical Simulations & HPC  
 
-<!-- Imagen JWST pequeña bajo el título -->
-<p align="center">
+<!-- Webb chiquito debajo del título -->
+<p align="center" style="margin-top: 0.5rem;">
   <img src="webb_glimpses_the_distant_past_pillars.jpg"
        style="width: 120px; height: auto; opacity: 0.95; border-radius: 8px;">
 </p>
