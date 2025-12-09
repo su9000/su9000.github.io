@@ -148,11 +148,14 @@ h2::after {
   <!-- Título + JWST a la derecha del título -->
   <div style="text-align: center; flex-grow: 1; margin: 0 1rem;">
     <h1 style="margin: 0;">Susana Pedrosa</h1>
-    <div style="display: inline-flex; align-items: center; gap: 0.5rem;">
-      <span style="font-size: 1.05rem;">Astrophysicist · Women in STEM</span>
-      <img src="webb_glimpses_the_distant_past_pillars.jpg"
-           style="height: 45px; width: auto; border-radius: 6px; opacity: 0.95;">
-    </div>
+    <p style="font-size: 1.05rem; margin-top: 0.2rem;">
+  Astrophysicist · Women in STEM
+ </p>
+    <!-- Webb pequeño centrado debajo del título -->
+<p align="center" style="margin-top: 0.8rem;">
+  <img src="webb_glimpses_the_distant_past_pillars.jpg"
+       style="height: 65px; width: auto; border-radius: 6px; opacity: 0.98;">
+</p>
   </div>
 
   <!-- Foto derecha -->
@@ -162,6 +165,7 @@ h2::after {
 </div>
 
 <br>
+
 
 ---
 
