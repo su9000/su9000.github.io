@@ -141,33 +141,31 @@ h2::after {
 
 <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
 
-  <!-- Logo izquierda -->
+ <!-- Logo izquierda -->
   <img src="logo.png"
        style="height: 80px; width: auto; border-radius: 8px;">
 
-  <!-- Título + JWST a la derecha del título -->
+  <!-- Título -->
   <div style="text-align: center; flex-grow: 1; margin: 0 1rem;">
     <h1 style="margin: 0;">Susana Pedrosa</h1>
     <p style="font-size: 1.05rem; margin-top: 0.2rem;">
-  Astrophysicist · Women in STEM
- </p>
-
+      Astrophysicist · Women in STEM
+    </p>
   </div>
-
-<!-- Webb pequeño centrado debajo del título -->
-<p align="center" style="margin-top: 0.6rem;">
-  <img src="webb_glimpses_the_distant_past_pillars.jpg"
-       style="height: 70px; width: auto; border-radius: 6px; opacity: 0.96;">
-</p>
 
   <!-- Foto derecha -->
   <img src="mecagoengemini.jpg"
        style="height: 80px; width: auto; border-radius: 10px;">
 
-</div>
+</div>  <!-- ← cierre del header -->
+
+<!-- Webb pequeño centrado debajo del título -->
+<p align="center" style="margin: 0.9rem 0 1.2rem;">
+  <img src="webb_glimpses_the_distant_past_pillars.jpg"
+       style="height: 70px; width: auto; border-radius: 6px; opacity: 0.96;">
+</p>
 
 <br>
-
 
 ---
 
