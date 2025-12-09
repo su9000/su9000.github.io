@@ -140,15 +140,15 @@ h2::after {
 </style>
 
 <!-- ✨ Bloque superior: Mandala + Foto personal -->
-<div style="display: flex; justify-content: center; gap: 2rem; align-items: center; flex-wrap: wrap;">
+<div style="display: flex; justify-content: center; gap: 2rem; align-items: flex-start; flex-wrap: wrap;">
 
   <!-- Mandala izquierda -->
-  <img src="logo.png" 
-       style="height: 260px; border-radius: 12px; object-fit: cover;">
+  <img src="logo.png"
+       style="width: 230px; border-radius: 12px;">
 
   <!-- Foto tuya derecha -->
   <img src="mecagoengemini.jpg"
-       style="height: 260px; border-radius: 12px; object-fit: cover;">
+       style="width: 230px; border-radius: 12px;">
 
 </div>
 
@@ -157,7 +157,7 @@ h2::after {
 <!-- 🌌 JWST centrado abajo -->
 <p align="center">
   <img src="webb_glimpses_the_distant_past_pillars.jpg"
-       style="width: 75%; border-radius: 10px;">
+       style="max-width: 700px; width: 100%; border-radius: 10px;">
 </p>
 
 # Susana Pedrosa
