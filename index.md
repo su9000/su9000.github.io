@@ -231,6 +231,7 @@ I am actively working to bring my expertise in simulations, numerical modeling, 
 - GitHub: https://github.com/su9000
 - LinkedIn: https://www.linkedin.com/in/susana-pedrosa-2a876118/
 - Email: susana.pedrosa@gmail.com
+- ORCID: https://orcid.org/0000-0002-3434-1335
 
 ---
 
