@@ -139,36 +139,27 @@ h2::after {
   
 </style>
 
-<!-- Línea superior: logo + título + foto personal -->
-<div style="display: flex; justify-content: space-between; align-items: center; width: 100%; flex-wrap: nowrap;">
+<!-- Línea superior: logo izquierda + tu foto derecha -->
+<div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
 
-  <!-- Logo a la izquierda -->
+  <!-- Logo -->
   <img src="logo.png"
-       style="height: 80px; border-radius: 8px;">
+       style="width: 85px; height: auto; border-radius: 8px;">
 
-  <div style="text-align: center; flex-grow: 1;">
-    <h1 style="margin-bottom: 0;">Susana Pedrosa</h1>
-    <p style="margin-top: 0; font-size: 1.1rem;">Astrophysicist · Women in STEM</p>
-  </div>
-
-  <!-- Foto tuya a la derecha -->
+  <!-- Foto tuya -->
   <img src="mecagoengemini.jpg"
-       style="height: 110px; border-radius: 10px;">
+       style="width: 110px; height: auto; border-radius: 10px;">
 </div>
-
-<br>
-
-<!-- JWST más chico, debajo del título -->
-<p align="center">
-  <img src="webb_glimpses_the_distant_past_pillars.jpg"
-       style="height: 85px; opacity: 0.95; border-radius: 8px;">
-</p>
-
-<br>
 
 # Susana Pedrosa
 
 Astrophysicist · Galaxy Formation & Evolution · Numerical Simulations & HPC  
+
+<!-- Imagen JWST pequeña bajo el título -->
+<p align="center">
+  <img src="webb_glimpses_the_distant_past_pillars.jpg"
+       style="width: 120px; height: auto; opacity: 0.95; border-radius: 8px;">
+</p>
 
 ---
 
