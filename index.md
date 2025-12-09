@@ -142,7 +142,7 @@ h2::after {
 
 <div style="display: flex; justify-content: center; gap: 3rem; align-items: center;">
   <img src="logo.png" width="28%" style="border-radius: 12px;">
-  <img src="mi_foto.jpg" width="28%" style="border-radius: 12px;">
+  <img src="mecagoengemini.jpg" width="28%" style="border-radius: 12px;">
 </div>
 
 <br>
