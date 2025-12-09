@@ -143,11 +143,11 @@ h2::after {
 <div style="display: flex; justify-content: center; gap: 2rem; align-items: center; flex-wrap: wrap;">
 
   <!-- Mandala izquierda -->
-  <img src="mandala.png" 
+  <img src="logo.png" 
        style="height: 260px; border-radius: 12px; object-fit: cover;">
 
   <!-- Foto tuya derecha -->
-  <img src="mi_foto.jpg"
+  <img src="mecagoengemini.jpg"
        style="height: 260px; border-radius: 12px; object-fit: cover;">
 
 </div>
