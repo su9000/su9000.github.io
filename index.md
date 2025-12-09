@@ -154,6 +154,12 @@ h2::after {
 
   </div>
 
+<!-- Webb pequeño centrado debajo del título -->
+<p align="center" style="margin-top: 0.6rem;">
+  <img src="webb_glimpses_the_distant_past_pillars.jpg"
+       style="height: 70px; width: auto; border-radius: 6px; opacity: 0.96;">
+</p>
+
   <!-- Foto derecha -->
   <img src="mecagoengemini.jpg"
        style="height: 80px; width: auto; border-radius: 10px;">
@@ -231,7 +237,6 @@ I am actively working to bring my expertise in simulations, numerical modeling, 
 - GitHub: https://github.com/su9000
 - LinkedIn: https://www.linkedin.com/in/susana-pedrosa-2a876118/
 - Email: susana.pedrosa@gmail.com
-- ORCID: https://orcid.org/0000-0002-3434-1335
 
 ---
 
