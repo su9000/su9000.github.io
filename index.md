@@ -136,36 +136,42 @@ h2::after {
   opacity: 0.6;
 }
 
-  
-<div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
+</style>
 
- <!-- Logo izquierda -->
-  <img src="logo.png"
-       style="height: 80px; width: auto; border-radius: 8px;">
+<!-- HEADER + WEBB -->
 
-  <!-- Título -->
-  <div style="text-align: center; flex-grow: 1; margin: 0 1rem;">
-    <h1 style="margin: 0;">Susana Pedrosa</h1>
-    <p style="font-size: 1.05rem; margin-top: 0.2rem;">
-      Astrophysicist · Women in STEM
-    </p>
+<div style="width: 100%; display: flex; flex-direction: column;">
+
+  <!-- Fila con logo, título y foto -->
+  <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
+
+    <!-- Logo izquierda -->
+    <img src="logo.png"
+         style="height: 80px; width: auto; border-radius: 8px;">
+
+    <!-- Título -->
+    <div style="text-align: center; flex-grow: 1; margin: 0 1rem;">
+      <h1 style="margin: 0;">Susana Pedrosa</h1>
+      <p style="font-size: 1.05rem; margin-top: 0.2rem;">
+        Astrophysicist · Women in STEM
+      </p>
+    </div>
+
+    <!-- Foto derecha -->
+    <img src="mecagoengemini.jpg"
+         style="height: 80px; width: auto; border-radius: 10px;">
   </div>
 
-  <!-- Foto derecha -->
-  <img src="mecagoengemini.jpg"
-       style="height: 80px; width: auto; border-radius: 10px;">
+  <!-- Webb pequeño centrado debajo del título -->
+  <p align="center" style="margin: 0.9rem 0 1.2rem;">
+    <img src="webb_glimpses_the_distant_past_pillars.jpg"
+         style="height: 70px; width: auto; border-radius: 6px; opacity: 0.96;">
+  </p>
 
-</div>  <!-- ← cierre del header -->
-
-<!-- Webb pequeño centrado debajo del título -->
-<p align="center" style="margin: 0.9rem 0 1.2rem;">
-  <img src="webb_glimpses_the_distant_past_pillars.jpg"
-       style="height: 70px; width: auto; border-radius: 6px; opacity: 0.96;">
-</p>
+</div>
 
 <br>
 
-  
 - [About](#about-me)
 - [Research](#research)
 - [Publications](#publications)
