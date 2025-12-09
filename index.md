@@ -139,26 +139,32 @@ h2::after {
   
 </style>
 
-<!-- ✨ Bloque superior: Mandala + Foto personal -->
-<div style="display: flex; justify-content: center; gap: 2rem; align-items: flex-start; flex-wrap: wrap;">
+<!-- Línea superior: logo + título + foto personal -->
+<div style="display: flex; justify-content: space-between; align-items: center; width: 100%; flex-wrap: nowrap;">
 
-  <!-- Mandala izquierda -->
+  <!-- Logo a la izquierda -->
   <img src="logo.png"
-       style="width: 230px; border-radius: 12px;">
+       style="height: 80px; border-radius: 8px;">
 
-  <!-- Foto tuya derecha -->
+  <div style="text-align: center; flex-grow: 1;">
+    <h1 style="margin-bottom: 0;">Susana Pedrosa</h1>
+    <p style="margin-top: 0; font-size: 1.1rem;">Astrophysicist · Women in STEM</p>
+  </div>
+
+  <!-- Foto tuya a la derecha -->
   <img src="mecagoengemini.jpg"
-       style="width: 230px; border-radius: 12px;">
-
+       style="height: 110px; border-radius: 10px;">
 </div>
 
 <br>
 
-<!-- 🌌 JWST centrado abajo -->
+<!-- JWST más chico, debajo del título -->
 <p align="center">
   <img src="webb_glimpses_the_distant_past_pillars.jpg"
-       style="max-width: 700px; width: 100%; border-radius: 10px;">
+       style="height: 85px; opacity: 0.95; border-radius: 8px;">
 </p>
+
+<br>
 
 # Susana Pedrosa
 
