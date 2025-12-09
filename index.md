@@ -140,8 +140,15 @@ h2::after {
 </style>
 
 
+<div style="display: flex; justify-content: center; gap: 3rem; align-items: center;">
+  <img src="mandala.png" width="28%" style="border-radius: 12px;">
+  <img src="mi_foto.jpg" width="28%" style="border-radius: 12px;">
+</div>
+
+<br>
+
 <p align="center">
-  <img src="/logo.png" width="200" style="border-radius: 50%;">
+  <img src="webb_glimpses_the_distant_past_pillars.jpg" width="55%">
 </p>
 
 # Susana Pedrosa
