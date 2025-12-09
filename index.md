@@ -151,11 +151,7 @@ h2::after {
     <p style="font-size: 1.05rem; margin-top: 0.2rem;">
   Astrophysicist · Women in STEM
  </p>
-    <!-- Webb pequeño centrado debajo del título -->
-<p align="center" style="margin-top: 0.8rem;">
-  <img src="webb_glimpses_the_distant_past_pillars.jpg"
-       style="height: 65px; width: auto; border-radius: 6px; opacity: 0.98;">
-</p>
+
   </div>
 
   <!-- Foto derecha -->
